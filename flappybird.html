@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FlappyBird</title>
+    <link rel="stylesheet" href="css/flappybird.css" media="screen" title="no title">
+</head>
+<body>
+<div class="canvas">
+    <!--菜单界面-->
+    <div class="menu">
+        <div class="head">
+            <img src="images/head.jpg">
+            <span class="small_bird"></span>
+        </div>
+        <div class="btn">
+            <span class="start_btn"></span>
+        </div>
+    </div>
+    <!--地面-->
+    <div class="slider">
+        <img src="images/slider.jpg">
+        <img src="images/slider.jpg">
+    </div>
+    <!--鸟-->
+    <div class="bird"></div>
+    <!--水管-->
+    <div class="pipe"></div>
+    <!--计分板-->
+    <div class="score">
+        <div class="sub_score"><img src="images/0.jpg"></div>
+        <div class="sub_score"></div>
+        <div class="sub_score"></div>
+    </div>
+    <!--GameOver-->
+    <div class="game_over"><img src="images/game_over.jpg"></div>
+</div>
+<audio id="up_bgm" src="source/bullet.mp3"></audio>
+<audio id="crash_bgm" src="source/game_over.mp3"></audio>
+</body>
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/flappybird.js"></script>
+</html>
